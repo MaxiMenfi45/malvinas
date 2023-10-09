@@ -104,9 +104,16 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+ 
 
     gap: 40px;
+}
+.malvi{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 
