@@ -1,0 +1,190 @@
+header{
+    background-color: #F3FDE8;
+    margin-bottom: 0;
+}
+main{
+    margin-top: 0;
+    background-color:#F3FDE8 ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#historia>h2,h4{
+    padding: 0 40px 0 40px;
+    margin: 0 20px 0 20px;
+}
+#historia>h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+#historia>h4{
+    text-align: left;
+    font-size: 20px;
+    margin-left:60px;
+}
+
+
+
+#subTitle{
+    text-align: center;
+    margin: 0 20px 0 20px;
+    padding: 30px;
+    font-size: 20;
+    font-family: 'DM Serif Display',sans-serif;
+    font-size: 25px;
+}
+#subTitle>span{
+    font-size: 25px;
+    font-family: 'DM Serif Display',sans-serif;
+}
+#lista>li{
+    list-style: none;
+    text-align: left;
+    border-bottom: 2px solid rgb(170, 170, 170);
+    font-size: 17px;
+    padding: 0 40px 0 40px;
+    margin: 0 20px 10px 20px;
+    font-family: 'Merriweather',sans-serif;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3FDE8;
+}
+#imgPrinciapl{
+    max-width: 100%;
+    height: auto;
+    min-width: 300px;
+    min-height: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.bold{
+    font-weight: 800;
+    font-size: 19px;
+}
+.caption{
+    font-size: 20px;;
+}
+.fotos>p{
+    text-align: center;
+}
+#fotosMalvinas{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-decoration: underline;
+}
+.fotosContainer{
+
+    max-width: 1400px;
+    margin :5px;
+    padding: 20px;;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    gap: 40px;
+}
+
+
+
+.fotosContainer img{
+    width: 100%;
+    height: 400px;
+    width: 500px;
+    min-width: 350px;
+    max-width: 550px;
+    min-height: 350px;
+    max-height: 500px;
+    border-radius: 15px;
+   
+}
+
+#lista>li:last-of-type{
+    border:none;
+}
+
+.comillas{
+    font-size: 80px;
+    display: inline-block;
+}
+
+#fraseC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-frase{
+
+    margin:10px 20px 10px 20px;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    height: 150px;
+    width: 500px;
+
+    flex-direction: column;
+}
+.texto-frase{
+    text-align:left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+.derecha{
+    text-align: right;
+    margin-top: -5px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.contenedor-memoria{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+ 
+}
+#memoria{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    font-family: 'Merriweather',serif;
+    font-size: 17px;
+    align-items: flex-start;
+   margin-left: 20px;
+   margin-right: 20px; 
+
+}
+#memoria li{
+    text-align: center;
+    list-style: none;
+    font-size: 19px;
+    font-family:'Merriweather',serif ;
+
+}
+
