@@ -21,6 +21,10 @@ body{
 
 }
 
+#historia{
+    padding-top: 20px;
+}
+
 
 #historia>h2,h4{
     padding: 0 40px 0 40px;
